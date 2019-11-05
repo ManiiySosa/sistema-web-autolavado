@@ -4,23 +4,36 @@
     box-sizing: border-box;
 }
 
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
 .encabezado1{
     background: #3366ff;
+    height: 40px;
+    
 }
-p{
+.info{
     color: aliceblue;
     display: table-cell;
     padding: 20px;
+    font-size: 15px;
 }
+
 p span{
     color: antiquewhite ;
+    
 }
 .encabezado2{
     background: #e6ffff;
+    height: 80px;
 }
 .imgEncabezado{
-    width: 200px;
-    height: 100px;
+    width: 180px;
+    height: 60px;
     margin-top: 10px;
     margin-left: 60px;
 }
@@ -31,19 +44,19 @@ p span{
     margin-top: 10px;
 }
 .menu ul{
-    display: flex;
+   display: flex;
 }
 
 li{
     display: table-cell;
-    padding: 18px;
+    padding: 16px;
     font-family: fantasy;
     
 }
   
 a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 li:hover{
@@ -66,10 +79,10 @@ li label{
 }
 
 #check:checked ~ .menu{
-    height: 390px;
+    height: 340px;
 }
 
-@media screen and (max-width:990px){
+@media screen and (max-width:900px){
     .icon-th-menu-outline{
         display: block;
         color: black;
@@ -87,12 +100,12 @@ li label{
 }
  .menu{
      float: left;
-     margin-top: 0px;
+     margin-top: 4px;
      margin-left: 0px;
      width: 100%;
      height: 0px;
      overflow: hidden;
-     background: rgba(0,0,0,0.5);
+     background: rgba(0,0,0,0.5); 
      transition: all 300ms;
     }    
 .menu ul{
