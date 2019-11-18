@@ -1,0 +1,16 @@
+footer {
+    margin-top: 100px;
+    padding: 25px;
+    text-align-last: center;
+    background: #666666;
+}
+
+.icon-facebook {
+    font-size: 30px;
+    color: #d1d1d1;
+}
+
+.icon-facebook:hover {
+    color: deepskyblue;
+    cursor: pointer;
+}
