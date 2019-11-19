@@ -64,7 +64,7 @@ li {
 a {
     text-decoration: none;
     font-size: 17px;
-    color: #6600cc;
+    color: blue;
 }
 
 li:hover {
@@ -79,6 +79,10 @@ li:hover a {
 
 li label {
     margin-right: 5px;
+}
+/*seleccionar inicio*/
+.menu li:nth-child(1) a{
+    color: white;
 }
 
 #check {

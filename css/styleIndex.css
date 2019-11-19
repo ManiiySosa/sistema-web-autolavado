@@ -61,6 +61,7 @@ main {
 }
 
 #servicios h2 {
+    text-align: center;
     margin-top: 30px;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -99,26 +100,57 @@ hr{
 /*style paquetes*/
 
 #paquetes{
-    text-align: center;
+   
+  
 }
 
 #paquetes h2{
+    text-align: center;
     margin-top: 30px;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #3366ff;
+    margin-bottom: 20px;
+}
+
+.contentPaq{
+     width: 100%;
+    padding: 10px;
+
+}
+
+
+.imgP{
+    width: 440px;
+    height: 300px;
+}
+
+.imgE{
+    width: 60px;
+    height: 50px; 
 }
 
 .content-paquetes{
     position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+    margin-bottom: 30px;
+    
 }
 
 .content-detalles-paquetes{
+    
     position: absolute;
     top: 0;
-    left: 0;
-    color: #fff;
-    background: rgba(0,0,0,0.4);
+    left: 110px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    width: 40%;
+    height: 100%;
+    padding: 10px;
 }
 
 .content-detalles-paquetes ul{
@@ -127,11 +159,127 @@ hr{
 }
 .content-detalles-paquetes li{
     display: block;
+    
 }
-.imgE{
-    width: 30px;
+
+
+/* style contacto*/
+#contacto{
+    text-align: center;
+}
+
+#contacto h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3366ff;
+    margin-bottom: 20px;
+}
+
+.content-mapa{
+    margin-bottom: 30px;
+}
+
+
+
+
+/* style nosotros*/
+
+#nosotros{
+    text-align: center;
+}
+
+#nosotros h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3366ff;
+    margin-bottom: 20px;
+}
+
+.content-nosotros{
+    width: 100%;
+    
+}
+
+.content-detalle-nosotros {
+    margin-bottom: 100px;
+
+}
+
+
+
+/* style promociones*/
+
+#promociones{
+    
+}
+
+#promociones h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3366ff;
+    margin-bottom: 40px;
+}
+
+.content-promociones{
+    width: 100%;
+    padding: 20px;
+    
+}
+
+form{
+    width: 400px;
+    height: auto;
+    background: #7a7a7a;
+    padding: 5px;
+    justify-content: center;
+}
+
+#nombre{
+    width: 100%;
     height: 30px;
 }
+
+#email{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+#textArea{
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#button{
+    width: 100%;
+    height: 30px;
+    background: 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
