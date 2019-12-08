@@ -23,13 +23,13 @@
             <label for="check" class="icon-th-menu-outline"></label>
             <nav class="menu">
                 <ul>
-                    <li><label class="icon-home-outline"></label><a href="#" style="">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Paquetes</a></li>
-                    <li><label class="icon-contacts"></label>
-                        <a href="#">Contacto</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Promociones</a></li>
+                    <li id="inicio"><label class="icon-home-outline"></label><a href="#" id="inicio2" >Inicio</a></li>
+                    <li id="servicios"><a href="#" id="servicios2">Servicios</a></li>
+                    <li id="paquetes"><a href="#" id="oaquetes2">Paquetes</a></li>
+                    <li id="contacto"><label class="icon-contacts"></label>
+                        <a href="#" id="contacto2">Contacto</a></li>
+                    <li id="nosotros"><a href="#" id="nosotros2">Nosotros</a></li>
+                    <li id="promociones"><a href="#" id="promociones2">Promociones</a></li>
                 </ul>
             </nav>
         </section>
@@ -169,7 +169,7 @@
             <h2>Promociones</h2>
             <div class="content-promociones">
                 <div class="content detalle-promociones">
-                    <form action="">
+                    <form action="php/autolavado.php" method="post">
                         <input type="text" placeholder="Nombre" id="nombre" name="nombre">
                         <input type="email" placeholder="Ingresar correo" id="email" name="email">
                         <textArea name="mensaje" rows="8" cols="80" id="textArea" placeholder="mensaje"></textArea>
@@ -186,7 +186,8 @@
         <label class="icon-facebook"></label>
     </footer>
     
-
+    <script src="js/jquery.js"></script>
+    <script src="js/autolavado.js"></script>
 
 </body>
 
