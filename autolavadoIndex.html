@@ -23,7 +23,7 @@
             <label for="check" class="icon-th-menu-outline"></label>
             <nav class="menu">
                 <ul>
-                    <li id="inicio"><label class="icon-home-outline"></label><a href="#" id="inicio2" >Inicio</a></li>
+                    <li id="inicio"><label class="icon-home-outline"></label><a href="#" id="inicio2">Inicio</a></li>
                     <li id="servicios"><a href="#" id="servicios2">Servicios</a></li>
                     <li id="paquetes"><a href="#" id="oaquetes2">Paquetes</a></li>
                     <li id="contacto"><label class="icon-contacts"></label>
@@ -158,26 +158,32 @@
             <div class="content-nosotros">
                 <div class="content-detalle-nosotros">
                     <h3>Proximamente</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error qui facere, quos rem omnis quibusdam porro ipsum consequatur sed ut nulla a quaerat laborum minima aliquid est perspiciatis voluptate exercitationem!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos fugiat, voluptate! Sapiente quibusdam nulla dignissimos quas iusto dolor voluptatem sunt explicabo enim expedita delectus maiores illum, quidem blanditiis, sequi voluptates.</p>
+
                 </div>
             </div>
             <hr>
         </section>
 
-        <section id="promociones">
-            <h2>Promociones</h2>
-            <div class="content-promociones">
-                <div class="content detalle-promociones">
-                    <form action="php/autolavado.php" method="post">
-                        <input type="text" placeholder="Nombre" id="nombre" name="nombre">
-                        <input type="email" placeholder="Ingresar correo" id="email" name="email">
-                        <textArea name="mensaje" rows="8" cols="80" id="textArea" placeholder="mensaje"></textArea>
-                        <input type="submit" name="button" value="Enviar Mensaje" id="button">
+        
+           <section id="promociones">
+            <h2>Promociones</h2><br>
+            <p>cada mes contamos con diferentes promociones</p><br>
+            <p>Promocion del Mes</p><br>
 
+                <div class="content-detalle-promociones">
+                   <div class="formulario">
+                   <p>Ingresa los siguientes datos</p><br>
+                    <form action="cgi-bin/promocion.pl" method="post">
+                        Nombre: <input type="text" class="txt" name="nombre" id="nombre"><br>
+                        Telefono: <input type="text" class="txt" name="telefono" id="tel"><br>
+                        Placas: <input type="text" class="txt" name="placas" id="placa"> <br>
+                        Folio: <input type="text" class="txtFol" name="folio" id="fol"> 
+                        <input type="submit" class="aceptar" name="aceptar" id="acepta" value="aceptar">
+                        
                     </form>
+                    </div>
                 </div>
-            </div>
+            
 
         </section>
 
@@ -185,10 +191,8 @@
     <footer>
         <label class="icon-facebook"></label>
     </footer>
-    
+
     <script src="js/jquery.js"></script>
     <script src="js/autolavado.js"></script>
 
-</body>
-
-</html>
+</body></html>

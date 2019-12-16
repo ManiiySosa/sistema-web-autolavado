@@ -32,7 +32,7 @@ $('#servicios').on('click', function(){
 })
 
 $('#paquetes').on('click', function(){
-    $('html,body').animate( {scrollTop: 1300}, 1000);
+    $('html,body').animate( {scrollTop: 1200}, 1000);
     
     $('#inicio2').css("color", "blue");
     
